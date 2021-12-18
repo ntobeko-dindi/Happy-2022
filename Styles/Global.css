@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+.countdown{
+    font-size: 80px;
+}
+canvas{
+    background-color: #000000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+}
+#text{
+    color: #ffffff;
+    z-index: 100;
+}
+.textStyle{
+    color: #ffffff;
+}
+.header{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.pre-footer{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.socials {
+    margin:50px auto;
+    width:200px;
+    text-align:center;
+  }
+  .icon {
+      position:relative;
+      text-align:center;
+      width:0px;
+      height:0px;
+      padding:30px;
+      border-top-right-radius: 	30px;
+      border-top-left-radius: 	30px;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 30px; 
+      color:#FFFFFF;
+  }
+  .icon i {
+      font-size:30px;
+      position:absolute;
+      left:9px;
+      top:15px;
+  }
+  .icon.social {
+      float:left;
+      margin:0 5px 0 0;
+      cursor:pointer;
+      background:#ffffff ;
+      color:#000000;
+      transition: 0.5s;
+      -moz-transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s; 	
+  }
+  .icon.social:hover {
+      background:#262626 ;
+      color:#ffffff;
+      transition: 0.5s;
+      -moz-transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      -webkit-filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));
+      -moz-filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));
+      -ms-filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));
+      -o-filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));
+      filter: drop-shadow(0 1px 10px rgba(0,0,0,.8));	 	
+  }
+  .icon.social.gh i {
+      left:18px;
+      top:15px;
+  }
+  .icon.social.yt i {
+      left:18px;
+  }
+  .icon.social.in i {
+      left:18px;
+  }
+  
